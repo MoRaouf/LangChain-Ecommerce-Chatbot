@@ -27,7 +27,13 @@ git clone https://github.com/MoRaouf/LangChain-Ecommerce-Chatbot.git
 cd LangChain-Ecommerce-Chatbot
 ```
 
-3. Install the required Python packages using pip:
+3. Create a virtualenv and activate it
+
+```
+python3 -m venv .venv && source .venv/bin/activate
+```
+
+4. Install the required Python packages using pip:
 
 ```
 pip install -r requirements.txt
