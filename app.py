@@ -35,7 +35,7 @@ import streamlit as st
 from streamlit_chat import message
 
 # from getpass import getpass
-from uuid import uuid4
+# from uuid import uuid4
 
 from dotenv import load_dotenv
 
@@ -50,9 +50,9 @@ load_dotenv()
 
 os.environ['QDRANT_URL'] = 'https://77fd7f57-43ed-4636-ba19-c70f60736415.us-east-1-0.aws.cloud.qdrant.io:6333'
 
-unique_id = uuid4().hex[0:8]
+# unique_id = uuid4().hex[0:8]
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_PROJECT"] = f"E-commerce Chatbot - {unique_id}"
+os.environ["LANGCHAIN_PROJECT"] = f"E-commerce Chatbot - Streamlit"
 os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
 
 #===================================================================================
